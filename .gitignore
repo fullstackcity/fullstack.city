@@ -163,3 +163,12 @@ $RECYCLE.BIN/
 # End of https://www.gitignore.io/api/osx,c++,ruby,linux,macos,windows
 
 /images
+/blog
+/demo-sites
+demo.php
+/form-submit
+/includes
+/main
+/rfp
+/services
+/uploads
