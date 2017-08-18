@@ -23,6 +23,16 @@
   <meta property="og:description"   content="Owning a website or a blog has it’s responsibilities. You can’t just upload content and forget about it. Well, you can. It's just not considered good practice." />
   <meta property="og:image"  content="https://fullstack.city/images/joey-kyber-132520.jpg" />
 
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-102022736-1', 'auto');
+    ga('send', 'pageview');
+
+    </script>
 
   <link rel="icon" type="image/png" href="../images/fullstack-map-icon.png">
   <!-- Bootstrap -->
@@ -167,7 +177,7 @@
 
                   <div class="col-sm-4" style="background-color: #ddd; height:100%; margin-bottom:30px;  padding-top:10px">
                       <div class="col-sm-4-tags">
-                          
+
                           <div id="disqus_thread"></div>
 <script>
 

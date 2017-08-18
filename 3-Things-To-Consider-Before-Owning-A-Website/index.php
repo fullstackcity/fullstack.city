@@ -34,23 +34,7 @@
   ga('send', 'pageview');
 
 </script>
-  <script>
 
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-var disqus_config = function () {
-this.page.url = "https://fullstack.city/3-Things-To-Consider-Before-Owning-A-Website/index.php";  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = "/3-Things-To-Consider-Before-Owning-A-Website/"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://fullstackcity.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
   <link rel="icon" type="image/png" href="../images/fullstack-map-icon.png">
   <!-- Bootstrap -->
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
@@ -190,13 +174,29 @@ s.setAttribute('data-timestamp', +new Date());
                   <h4><a href="https://fullstack.city/3-Things-To-Consider-Before-Owning-A-Website/index.php#disqus_thread">Comments</a></h4>
                   <br>
               </div>
-                    
+
                   </div>
 
                   <div class="col-sm-4" style="background-color: #ddd; height:100%; margin-bottom:30px;  padding-top:10px">
                       <div class="col-sm-4-tags">
                           <div id="disqus_thread"></div>
+                          <script>
 
+                          /**
+                          *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                          *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+                          var disqus_config = function () {
+                          this.page.url = "https://fullstack.city/3-Things-To-Consider-Before-Owning-A-Website/index.php";  // Replace PAGE_URL with your page's canonical URL variable
+                          this.page.identifier = "/3-Things-To-Consider-Before-Owning-A-Website/"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                          };
+
+                          (function() { // DON'T EDIT BELOW THIS LINE
+                          var d = document, s = d.createElement('script');
+                          s.src = 'https://fullstackcity.disqus.com/embed.js';
+                          s.setAttribute('data-timestamp', +new Date());
+                          (d.head || d.body).appendChild(s);
+                          })();
+                          </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
                       </div>
                   </div>
