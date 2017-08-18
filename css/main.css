@@ -1,0 +1,870 @@
+@import "../css/navbar.css";
+/*
+	font-family: 'ABeeZee', sans-serif;
+	font-family: 'Kaushan Script', cursive;
+	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Lato', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Merriweather', serif;
+	font-family: 'Titillium Web', sans-serif;
+    font-family: 'Raleway', sans-serif;
+	font-family: 'Roboto', sans-serif;
+*/
+/*
+    Colors:
+        red: #E95A49;
+        off white: #f0eeef;
+        dark red: #A24E4E;
+        dark blue: #0B3656;
+        simi-dark blue: #538a9a;
+        baby blue: #7ABBBF;
+        baby baby blue: #B0D2D3;
+        yellow: #F0A120;
+        dark yellow: #F1971F;
+*/
+/* Optional: Makes the sample page fill the window. */
+html, body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.alert-danger {
+ 	  background-color: rgba(233, 90, 73, .5);
+   	border: none;
+  	font-size: 17px;
+  	color: rgb(237, 220, 218);
+    text-shadow: none;
+}
+.alert-success {
+ 	  color: #DFF0D8;
+  	border: none;
+  	font-size: 17px;
+  	background-color: rgba(60, 118, 61, .6);
+    text-shadow: none;
+}
+.wrap {
+  	background-color: gray;
+    background-image: url('../images/pj-accetturo-172477.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.wrap-2 {
+  	 width: 100%;
+  	 height: 100%;
+	   background-color: rgba(9, 44, 81, .34);
+}
+.page-title-container {
+  	padding-top: 100px;
+    padding-bottom: 80px;
+}
+.row-2 {
+    color: #FFF;
+    font-family: 'Lato', sans-serif;
+    margin-top: 40px;
+    letter-spacing: 1px;
+}
+.header-paragraph-style .col-sm-7 h4 {
+    padding-bottom: 10px;
+}
+#call-today {
+  font-family: 'Roboto', sans-serif;
+  font-size: 45px;
+  margin-top: 45px;
+}
+.phone-number {
+    font-size: 45px;
+    color: #F0A120;
+    margin-top: 45px;
+}
+.phone-number:visited {
+   color: #F1971F;
+}
+.phone-number:focus {
+    color: #F0A120;
+    text-decoration: none;
+}
+.phone-number:hover {
+   color: #F1971F;
+   text-decoration: underline;
+}
+.phone-number:active {
+  background-color: none;
+}
+.to-services-arrow {
+    color: #FFF;
+    background-color: rgba(9, 44, 81, .56);
+    margin-top: 300px;
+    bottom: 40px;
+    right: 45px;
+  	z-index: 23;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 23px;
+    padding: 5px 24px 5px 34px;
+}
+.to-services-arrow a {
+    color: #FFF;
+
+}
+.main-title-content {
+    color: #FFF;
+	text-shadow: 1px 2px 2px rgba(9, 44, 81, .98);
+}
+/* Extra small devices (phones, up to 480px) */
+@media screen and (max-width: 767px) {
+    .main-title-content h1 {
+        font-size: 47px;
+    }
+  	.main-title-content h2 {
+      	font-size: 25px;
+  	}
+    .header-paragraph-style .col-sm-7 h4 {
+        font-size: 15px;
+    }
+    .main-content-services h1 {
+        font-size: 36px;
+    }
+  	.main-content-services h2 {
+      	font-size: 25px;
+  	}
+    .main-content-services p {
+        font-size: 15px;
+    }
+    .main-content-services h4 {
+        font-size: 15px;
+    }
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .main-title-content h1 {
+        font-size: 57px;
+    }
+  	.main-title-content h2 {
+      	font-size: 27px;
+  	}
+    .header-paragraph-style .col-sm-7 h4 {
+        font-size: 16px;
+    }
+    .main-content-services h1 {
+        font-size: 36px;
+    }
+  	.main-content-services h2 {
+      	font-size: 27px;
+  	}
+    .main-content-services h4 {
+      font-size: 16px;
+    }
+    .main-content-services p {
+        font-size: 16px;
+    }
+}
+/* tablets/desktops and up ----------- */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .main-title-content h1 {
+      font-size: 67px;
+    }
+  	.main-title-content h2 {
+      	font-size: 32px;
+  	}
+    .header-paragraph-style .col-sm-7 h4 {
+        font-size: 17px;
+    }
+    .main-content-services h1 {
+      font-size: 46px;
+    }
+  	.main-content-services h2 {
+      	font-size: 32px;
+  	}
+    .main-content-services h4 {
+        font-size: 17px;
+    }
+    .main-content-services p {
+        font-size: 17px;
+    }
+}
+/* large desktops and up ----------- */
+@media screen and (min-width: 1200px) {
+    .main-title-content h1 {
+        font-size: 77px;
+    }
+  	.main-title-content h2 {
+      	font-size: 35px;
+  	}
+    .header-paragraph-style .col-sm-7 h4 {
+        font-size: 18px;
+    }
+    .main-content-services h1 {
+        font-size: 56px;
+    }
+  	.main-content-services h2 {
+      	font-size: 35px;
+  	}
+    .main-content-services h4 {
+      font-size: 18px;
+    }
+    .main-content-services p {
+        font-size: 18px;
+    }
+}
+.main-title-content h1 {
+  	font-family: 'Roboto', sans-serif;
+  	margin-bottom: 10px;
+}
+.main-title-content h2 {
+ 	font-family: 'Open Sans Condensed', sans-serif;
+  	font-weight: 300;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+/* Services */
+/* Services */
+/* Services */
+.services-wrap {
+  background-color: gray;
+  background: url('../images/nasa-63032.jpg') no-repeat fixed center center;
+  /*
+
+  <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px;" href="http://unsplash.com/@nasa?utm_campaign=photographer-credit" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from NASA"><span style="display:inline-block;padding:2px 3px;"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white;" viewBox="0 0 32 32"><title></title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span style="display:inline-block;padding:2px 3px;">NASA</span></a>
+
+  */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: WHITE;
+}
+.services-wrap-2 {
+  padding: 75px 0 100px 0;
+}
+.main-content-services img {
+  width: 100%; /* 30% + 30% + 30% = 90% */
+  margin: 0; /* 1.66% + 1.66% + 1.66% = 10%*/
+}
+.main-content-services img:hover {
+  opacity: .74;
+}
+
+/* main-content */
+/* main-content */
+/* main-content */
+.main-content-services {
+  text-shadow: 1px 2px 3px rgb(11, 11, 11);
+}
+.main-content-services h1 {
+	margin: 20px 0 10px 0;
+	font-size: 56px;
+    font-family: 'Roboto', sans-serif;
+}
+.main-content-services h2 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    margin: 45px 0 35px 0;
+
+}
+.main-content-services span{
+  	font-family: 'Ubuntu', sans-serif;
+  	font-size: 18px;
+  	font-weight: 400;
+}
+.main-content-services p {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+/* /Services */
+/* /Services */
+/* /Services */
+
+
+
+
+
+
+
+
+
+/* How it works */
+/* How It Works */
+.how-it-works-wrap {
+  /* rgba(17, 38, 62, .56); */
+    background-color: #0C0C0C;
+    background-image: url('../images/jeff-sheldon-3228.jpg');  
+    /*
+    <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px;" href="http://unsplash.com/@ugmonk?utm_campaign=photographer-credit" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Jeff Sheldon"><span style="display:inline-block;padding:2px 3px;"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white;" viewBox="0 0 32 32"><title></title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span style="display:inline-block;padding:2px 3px;">Jeff Sheldon</span></a>
+    */
+    background-position: center;
+    background-size: cover;
+    color: #FFF;
+}
+
+.how-it-works-wrap-2 {
+    background-color: rgba(11, 11, 11, 0.70);
+    height: 100%;
+    padding: 75px 0 100px 0;
+}
+
+.what-we-do-col h1, .what-we-do-col span, .what-we-do-col h2 {
+    text-shadow: 1px 2px 3px #111;
+}
+.what-we-do-col h1 {
+	margin: 20px 0 10px 0;
+	font-size: 56px;
+    font-family: 'Roboto', sans-serif;
+}
+.what-we-do-col h2 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    margin: 45px 0 35px 0;
+
+}
+.about {
+
+}
+
+/* Extra small devices (phones, up to 480px) */
+@media screen and (max-width: 767px) {
+    .what-we-do-col h1 {
+        font-size: 36px;
+    }
+  	.what-we-do-col h2 {
+      	font-size: 25px;
+  	}
+    .what-we-do-col p {
+        font-size: 15px;
+    }
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .what-we-do-col h1 {
+        font-size: 36px;
+    }
+  	.what-we-do-col h2 {
+      	font-size: 27px;
+  	}
+    .what-we-do-col p {
+        font-size: 16px;
+    }
+}
+/* tablets/desktops and up ----------- */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .what-we-do-col h1 {
+      font-size: 46px;
+    }
+  	.what-we-do-col h2 {
+      	font-size: 32px;
+  	}
+    .what-we-do-col p {
+        font-size: 17px;
+    }
+}
+/* large desktops and up ----------- */
+@media screen and (min-width: 1200px) {
+    .what-we-do-col h1 {
+        font-size: 56px;
+    }
+  	.what-we-do-col h2 {
+      	font-size: 35px;
+  	}
+    .what-we-do-col p {
+        font-size: 18px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fa-desktop, .fa-bookmark {
+  	color: #F0A120; /* Yellow */
+  	background: -webkit-linear-gradient(#F0A120, #f1bd1f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.fa-code {
+  	color: #0B3656; /* Dark Blue */
+  	background: -webkit-linear-gradient(#0B3656, #B0D2D3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.fa-wrench, .fa-crop {
+  	color: #7ABBBF; /* Baby Blue */
+  	background: -webkit-linear-gradient(#7ABBBF, #B0D2D3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.fa-line-chart {
+  color: #A24E4E; /* Red to Dark Read */
+  background: -webkit-linear-gradient(#A24E4E, #E95A49);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.more-info-links {
+  color: #FFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+.what-we-do-cols span{
+  	font-family: 'Ubuntu', sans-serif;
+  	font-size: 18px;
+  	font-weight: 400;
+  	margin-left: 23px;
+}
+.what-we-do-cols p{
+  	margin: 10px 10px 40px 10px;
+  	text-indent: 30px;
+    text-shadow: 2px 2px 2px #111;
+}
+.call-to-action {
+    margin: 45px 0 0 0;
+}
+.call-to-action h4{
+    font-size: 35px;
+}
+
+
+.request-a-proposal-link {
+    color: #F0A120;
+    font-style: italic;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 10px;
+}
+.request-a-proposal-link:visited {
+   color: #F1971F;
+}
+.request-a-proposal-link:focus {
+    color: #F0A120;
+    text-decoration: none;
+}
+.request-a-proposal-link:hover {
+   color: #F1971F;
+   text-decoration: underline;
+}
+.request-a-proposal-link:active {
+  background-color: none;
+}
+
+
+.pull-right-pull-left-arrows {
+  margin-top: 300px;
+}
+.to-services-arrow {
+    color: #FFF;
+    background-color: rgba(9, 44, 81, .56);
+    bottom: 40px;
+    right: 45px;
+  	z-index: 23;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 23px;
+    padding: 5px 24px 5px 34px;
+}
+.to-services-arrow a {
+    color: #FFF;
+}
+
+/* /How it works*/
+
+
+
+
+/* Our Team */
+/* Our Team */
+/* Our Team */
+
+.our-team-wrap {
+  background-color: gray;
+  background-image: url('../images/rawpixel-com-250087.jpg');
+  /*
+
+  <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px;" href="http://unsplash.com/@nasa?utm_campaign=photographer-credit" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from NASA"><span style="display:inline-block;padding:2px 3px;"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white;" viewBox="0 0 32 32"><title></title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span style="display:inline-block;padding:2px 3px;">NASA</span></a>
+
+  */
+  background-position: center;
+  background-size: cover;
+  color: WHITE;
+}
+
+.our-team-wrap-2 {
+  padding: 75px 0 100px 0;
+}
+.main-content-our-team img {
+  width: 100%; /* 30% + 30% + 30% = 90% */
+  margin: 0; /* 1.66% + 1.66% + 1.66% = 10%*/
+}
+.main-content-our-team img:hover {
+  opacity: .74;
+}
+
+/* main-content */
+/* main-content */
+/* main-content */
+.main-content-our-team {
+  text-shadow: 1px 2px 3px rgb(11, 11, 11);
+}
+.main-content-our-team h1 {
+	margin: 20px 0 10px 0;
+	font-size: 56px;
+    font-family: 'Roboto', sans-serif;
+}
+.main-content-our-team h2 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    margin: 45px 0 15px 0;
+
+}
+.main-content-our-team span{
+  	font-family: 'Ubuntu', sans-serif;
+  	font-size: 18px;
+  	font-weight: 400;
+}
+.main-content-our-team p {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+/* Extra small devices (phones, up to 480px) */
+@media screen and (max-width: 767px) {
+    .main-content-our-team h1 {
+        font-size: 36px;
+    }
+  	.main-content-our-team h2 {
+      	font-size: 25px;
+  	}
+    .main-content-our-team p {
+        font-size: 15px;
+    }
+    .main-content-our-team h4 {
+        font-size: 15px;
+    }
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .main-content-our-team h1 {
+        font-size: 36px;
+    }
+  	.main-content-our-team h2 {
+      	font-size: 27px;
+  	}
+    .main-content-our-team h4 {
+      font-size: 16px;
+    }
+    .main-content-our-team p {
+        font-size: 16px;
+    }
+}
+/* tablets/desktops and up ----------- */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .main-content-our-team h1 {
+      font-size: 46px;
+    }
+  	.main-content-our-team h2 {
+      	font-size: 32px;
+  	}
+    .main-content-our-team h4 {
+        font-size: 17px;
+    }
+    .main-content-our-team p {
+        font-size: 17px;
+    }
+}
+/* large desktops and up ----------- */
+@media screen and (min-width: 1200px) {
+    .main-content-our-team h1 {
+        font-size: 56px;
+    }
+  	.main-content-our-team h2 {
+      	font-size: 35px;
+  	}
+    .main-content-our-team h4 {
+      font-size: 18px;
+    }
+    .main-content-our-team p {
+        font-size: 18px;
+    }
+}
+.contact-us-arrows:visited {
+   color: #F1971F;
+}
+.contact-us-arrows:focus {
+    color: #F0A120;
+    text-decoration: none;
+}
+.contact-us-arrows:hover {
+   color: #F1971F;
+   text-decoration: underline;
+}
+.contact-us-arrows:active {
+  background-color: none;
+}
+.col-sm-12-our-team {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.col-sm-12-style-our-team:hover .text-content {
+  opacity: 1;
+}
+.col-sm-12-style-our-team:focus .text-content {
+  opacity: 0;
+}
+.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+.text-within-text-content {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.text-within-text-content{
+  padding: 0 34px;
+}
+/* /Our Team */
+/* /Our Team */
+/* /Our Team */
+
+
+/* Contact */
+/* Contact */
+/* Contact */
+.contact-wrap {
+  background-color: gray;
+  background-image: url('../images/luca-bravo-65126.jpg');
+  /*
+
+  <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px;" href="http://unsplash.com/@lucabravo?utm_campaign=photographer-credit" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Luca Bravo"><span style="display:inline-block;padding:2px 3px;"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white;" viewBox="0 0 32 32"><title></title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span style="display:inline-block;padding:2px 3px;">Luca Bravo</span></a>
+
+  */
+  background-position: center;
+  background-size: cover;
+  color: WHITE;
+}
+
+.contact-wrap-2 {
+  padding: 75px 0 100px 0;
+}
+.main-content-contact img {
+  width: 100%; /* 30% + 30% + 30% = 90% */
+  margin: 0; /* 1.66% + 1.66% + 1.66% = 10%*/
+}
+.main-content-contact img:hover {
+  opacity: .74;
+}
+
+/* main-content */
+/* main-content */
+/* main-content */
+.main-content-contact {
+  text-shadow: 1px 2px 3px rgb(11, 11, 11);
+}
+.main-content-contact h1 {
+	margin: 20px 0 10px 0;
+	font-size: 56px;
+    font-family: 'Roboto', sans-serif;
+}
+.main-content-contact h2 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    margin: 45px 0 35px 0;
+
+}
+.main-content-contact span{
+  	font-family: 'Ubuntu', sans-serif;
+  	font-size: 18px;
+  	font-weight: 400;
+}
+.main-content-contact p {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+/* Extra small devices (phones, up to 480px) */
+@media screen and (max-width: 767px) {
+    .main-content-contact h1 {
+        font-size: 36px;
+    }
+  	.main-content-contact h2 {
+      	font-size: 25px;
+  	}
+    .main-content-contact p {
+        font-size: 15px;
+    }
+    .main-content-contact h4 {
+        font-size: 15px;
+    }
+    .latest-blog-post a button {
+        font-size: 20px;
+    }
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .main-content-contact h1 {
+        font-size: 36px;
+    }
+  	.main-content-contact h2 {
+      	font-size: 27px;
+  	}
+    .main-content-contact h4 {
+      font-size: 16px;
+    }
+    .main-content-contact p {
+        font-size: 16px;
+    }
+    .latest-blog-post a button {
+        font-size: 22px;
+    }
+}
+/* tablets/desktops and up ----------- */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .main-content-contact h1 {
+      font-size: 46px;
+    }
+  	.main-content-contact h2 {
+      	font-size: 32px;
+  	}
+    .main-content-contact h4 {
+        font-size: 17px;
+    }
+    .main-content-contact p {
+        font-size: 17px;
+    }
+    .latest-blog-post a button {
+        font-size: 24px;
+    }
+}
+/* large desktops and up ----------- */
+@media screen and (min-width: 1200px) {
+    .main-content-contact h1 {
+        font-size: 56px;
+    }
+  	.main-content-contact h2 {
+      	font-size: 35px;
+  	}
+    .main-content-contact h4 {
+      font-size: 18px;
+    }
+    .main-content-contact p {
+        font-size: 18px;
+    }
+    .latest-blog-post a button {
+        font-size: 26px;
+    }
+}
+
+
+
+.form-control {
+  background-color: rgba(1, 1, 1, 0.68); rgba(252, 97, 39, 0.98);
+  border-color: rgba(252, 97, 39, 0.98);
+  color: white;
+}
+.contact-submit-button {
+  border-radius: 0;
+  background-color: rgba(1, 1, 1, 0.68);
+  color: white;
+  border-color: rgba(252, 97, 39, 0.98);
+  float: right;
+  margin-top: 20px;
+  padding: 10px 25px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.contact-submit-button:hover {
+  border-color: rgb(90, 255, 0);
+  background-color: rgba(1, 1, 1, 0.68);
+  color: #DCD;
+}
+.contact-submit-button:active {
+    border-color: rgb(90, 255, 0);
+    background-color: rgba(1, 1, 1, 0.68);
+    color: #DCD;
+}
+.contact-submit-button:visited {
+    border-color: rgb(90, 255, 0);
+    background-color: rgba(1, 1, 1, 0.68);
+    color: #DCD;
+}
+.contact-submit-button:focus {
+    border-color: rgb(90, 255, 0);
+    background-color: rgba(1, 1, 1, 0.68);
+    color: #DCD;
+}
+.form-control:focus{
+  border-color: rgb(90, 255, 0);
+  box-shadow:  0 0 2px rgb(90, 255, 0), 0 0 2px rgb(90, 255, 0);
+}
+.form-control {
+  background-color: rgba(1, 1, 1, 0.68);
+  border-color: rgba(252, 97, 39, 0.98);
+  color: white;
+}
+.address-submit-button {
+  border-radius: 0;
+  background-color: rgba(1, 1, 1, 0.68);
+  color: white;
+  border-color: rgba(252, 97, 39, 0.98);
+  float: right;
+  margin-top: 20px;
+  padding: 10px 25px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.address-map-row {
+  text-shadow: 1px 2px 3px #000;
+}
+/* Always set the map height explicitly to define the size of the div
+ * element that contains the map. */
+#map {
+  height: 100%;
+  width: 100%;
+}
+
+/* /Contact */
+/* /Contact */
+/* /Contact */
+
+/* latest-blog-post */
+/* latest-blog-post */
+/* latest-blog-post */
+.latest-blog-post {
+    position: fixed;
+    bottom: 45px;
+    right: 20px;
+    font-style: italic;
+}
+/* /latest-blog-post */
+/* /latest-blog-post */
+/* /latest-blog-post */

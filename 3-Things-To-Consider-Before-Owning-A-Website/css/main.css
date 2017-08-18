@@ -1,0 +1,157 @@
+@import "../../css/navbar.css";
+/*
+	font-family: 'ABeeZee', sans-serif;
+	font-family: 'Kaushan Script', cursive;
+	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Lato', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Merriweather', serif;
+	font-family: 'Titillium Web', sans-serif;
+    font-family: 'Raleway', sans-serif;
+	font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+*/
+/*
+    Colors:
+        red: #E95A49;
+        off white: #f0eeef;
+        dark red: #A24E4E;
+        dark blue: #0B3656;
+        simi-dark blue: #538a9a;
+        baby blue: #7ABBBF;
+        baby baby blue: #B0D2D3;
+        yellow: #F0A120;
+        dark yellow: #F1971F;
+*/
+/* Optional: Makes the sample page fill the window. */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.blog-wrap {
+    background-color: #2c3e50;
+    padding-top: 35px;
+    padding-bottom: 45px;
+}
+.blog-header-wrap {
+  	background-color: gray;
+    background: url('../../images/joey-kyber-photo-fullstack-city.jpg') no-repeat scroll center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #FFF;
+	text-shadow: 1px 2px 2px rgba(9, 44, 81, .98);
+}
+.blog-container {
+    background-color: #fff;
+    padding: 0 35px;
+}
+.blog-header-wrap-2 {
+  	 width: 100%;
+  	 height: 100%;
+	  background-color: rgba(9, 44, 81, .34);
+}
+.page-title-container {
+  	padding-top: 150px;
+    padding-bottom: 70px;
+}
+.main-title-content h1 {
+    font-weight: bold;
+}
+.row-2 {
+    color: #FFF;
+    font-family: 'Lato', sans-serif;
+    margin-top: 15px;
+    letter-spacing: 1px;
+}
+.date {
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    padding: 75px 20px 25px 0;
+    text-align: right;
+}
+.blog-content-style {
+    margin-bottom: 2px solid #bdc3c7;
+}
+.blog-content h4 {
+    padding-bottom: 10px;
+    line-height: 19px;
+}
+.blog-content h3 {
+    font-weight: bold;
+}
+.blog-content h2, .blog-content h3 {
+    color:  #2c3e50;
+}
+.blog-content h2 {
+ 	font-family: 'Source Sans Pro', sans-serif;
+  	font-weight: bold;
+    margin-top: 15px;
+}
+.blog-content {
+    color: rgb(0, 16, 64);
+
+}
+/* Extra small devices (phones, up to 480px) */
+@media screen and (max-width: 767px) {
+    .main-title-content h1 {
+        font-size: 47px;
+    }
+  	.blog-content h2 {
+      	font-size: 25px;
+  	}
+    .blog-content h4 {
+        font-size: 15px;
+    }
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .main-title-content h1 {
+        font-size: 57px;
+    }
+  	.blog-content h2 {
+      	font-size: 27px;
+  	}
+    .blog-content h4 {
+        font-size: 16px;
+    }
+}
+/* tablets/desktops and up ----------- */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .main-title-content h1 {
+      font-size: 67px;
+    }
+  	.blog-content h2 {
+      	font-size: 32px;
+  	}
+    .blog-content h4 {
+        font-size: 17px;
+    }
+}
+/* large desktops and up ----------- */
+@media screen and (min-width: 1200px) {
+    .main-title-content h1 {
+        font-size: 77px;
+    }
+  	.blog-content h2 {
+      	font-size: 35px;
+  	}
+    .blog-content h4 {
+        font-size: 18px;
+    }
+}
+.main-title-content h1 {
+  	font-family: 'Roboto', sans-serif;
+  	margin-bottom: 10px;
+}
+#map {
+  height: 100%;
+  width: 100%;
+}
+.address-map-row {
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+}

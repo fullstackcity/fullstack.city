@@ -1,0 +1,72 @@
+@import "fonts.css";
+/*
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Kaushan Script', cursive;
+font-family: 'ABeeZee', sans-serif;
+*/
+.hello {
+    background-color: white;
+    height: 100%;
+    padding: 25px;
+    text-align: center;
+}
+.navbar {
+  	background-color: rgba(11, 54, 86, .65);
+}
+.navbar-brand {
+    margin-top: 5px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    background: -webkit-linear-gradient(#FFF, #F1971F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 15px 10px 0 15px;
+}
+.navbar-inverse .navbar-brand:hover {
+  	background: -webkit-linear-gradient(#FFF, #F0EEEF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #F0EEEF;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+     background: -webkit-linear-gradient(#FFF, #F1971F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* Extra small devices (phones, up to 480px) */
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        font-size: 25px;
+    }
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-brand {
+        font-size: 29px;
+    }
+}
+/* tablets/desktops and up ----------- */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar-brand {
+        font-size: 32px;
+    }
+}
+/* large desktops and up ----------- */
+@media screen and (min-width: 1200px) {
+    .navbar-brand {
+        font-size: 35px;
+    }
+}
+.nav a {
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 8px;
+  	font-size: 16px;
+}
+.navbar-inverse .navbar-toggle:hover {
+  background-color: rgba(11, 54, 85, 0.77);
+}
+.navbar-inverse .navbar-toggle {
+  border-color: rgba(207, 120, 2, 0.18);
+}
